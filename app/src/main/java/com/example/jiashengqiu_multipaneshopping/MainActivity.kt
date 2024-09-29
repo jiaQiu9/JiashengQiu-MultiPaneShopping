@@ -99,36 +99,6 @@ fun TaskList(sList: List<Triple<String, String, String>>, onItemSelected: (Tripl
             }
         }
     }
-
-
-//    Column(
-//        modifier = modifier.padding(16.dp),
-//        verticalArrangement = Arrangement.spacedBy(8.dp)
-//    ) {
-//        // List Title
-//        Text(
-//            text = "Tasks",
-//            fontSize = 22.sp,
-//            fontWeight = FontWeight.Bold
-//        )
-//
-//        Spacer(modifier = Modifier.height(8.dp))
-//
-//        // List Items
-//        items.forEach { item ->
-//            Text(
-//                text = item,
-//                modifier = Modifier
-//                    .fillMaxWidth()
-//                    .clickable { onItemSelected(item) }
-//                    .padding(8.dp),
-//                fontSize = 18.sp
-//            )
-//            Spacer(modifier = Modifier.height(4.dp))
-//        }
-//    }
-
-
 }
 
 @Composable
